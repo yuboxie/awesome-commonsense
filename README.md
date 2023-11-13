@@ -15,5 +15,6 @@ Awesome Commonsense Knowledge Resources
 
 #### Finished
 
-
+- Commonsense Reasoning Survey: 
+  - Commonsense reasoning for conversational AI: [Paper] (https://arxiv.org/abs/2302.07926), Notes
 
