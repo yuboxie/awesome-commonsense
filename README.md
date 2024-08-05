@@ -131,7 +131,9 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 
 ##  🌟 Applications
 
-> 
+### Anti-Hallucination
+1. **Right for Right Reasons: Large Language Models for Verifiable Commonsense Knowledge Graph Question Answering** `2024.03` [[paper]](https://arxiv.org/abs/2403.01390)
+
 
 ## :pushpin:Reference
 
