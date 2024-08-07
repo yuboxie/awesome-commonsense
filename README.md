@@ -135,6 +135,7 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 1. **Right for Right Reasons: Large Language Models for Verifiable Commonsense Knowledge Graph Question Answering** `2024.03` [[paper]](https://arxiv.org/abs/2403.01390)
 2. **An Enhanced Prompt-Based LLM Reasoning Scheme via Knowledge Graph-Integrated Collaboration** `2024.02` [[paper]](https://arxiv.org/abs/2402.04978)
 3. **Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation** `2024.02` [[paper]](https://arxiv.org/abs/2402.09267), [[code]](https://github.com/zhangxy-2019/Self-Alignment-for-Factuality)
+4. **DiffuCOMET: Contextual Commonsense Knowledge Diffusion** `2024.02` [[paper]](https://arxiv.org/abs/2402.17011), [[code]](https://github.com/Silin159/DiffuCOMET)
 
 
 ## :pushpin:Reference
