@@ -127,7 +127,8 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 
 ## 🛠️ Methodologies
 
-> 
+### External Memorization
+1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018` [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf), [[code]](https://github.com/tuxchow/ccm)
 
 ##  🌟 Applications
 
