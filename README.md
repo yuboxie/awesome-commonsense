@@ -120,6 +120,7 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 2. **Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning** `ACL-IJCNLP 2021` [[paper]](https://arxiv.org/abs/2106.06937), [[code]](https://github.com/INK-USC/XCSR)
 
    *Bill Yuchen Lin, Seyeon Lee, Xiaoyang Qiao, Xiang Ren*
+   
 
 
 
@@ -129,6 +130,7 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 
 ### External Memorization
 1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018` [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf), [[code]](https://github.com/tuxchow/ccm)
+2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020` [[paper]](https://aclanthology.org/2020.acl-main.515/), [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
 
 ##  🌟 Applications
 
