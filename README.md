@@ -131,6 +131,7 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 ### External Memorization
 1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018` [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf), [[code]](https://github.com/tuxchow/ccm)
 2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020` [[paper]](https://aclanthology.org/2020.acl-main.515/), [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
+3. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023` [[paper]](https://arxiv.org/abs/2310.11672), [[code]](https://github.com/lingchen0331/KEEP)
 
 ##  🌟 Applications
 
