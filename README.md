@@ -133,6 +133,8 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020` [[paper]](https://aclanthology.org/2020.acl-main.515/), [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
 3. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023` [[paper]](https://arxiv.org/abs/2310.11672), [[code]](https://github.com/lingchen0331/KEEP)
 4. **Leveraging Explicit Reasoning for Inference Integration in Commonsense-Augmented Dialogue Models** `2024.6` [[paper]](https://arxiv.org/abs/2406.09138), [[code]](https://github.com/sfillwo/DialCS-Reasoning)
+5. **Dynamic Heterogeneous-Graph Reasoning with Language Models and Knowledge Representation Learning for Commonsense Question Answering** `ACL 2023` [[paper]](https://aclanthology.org/2023.acl-long.785/)
+
 
 ##  🌟 Applications
 
