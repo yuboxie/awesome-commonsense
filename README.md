@@ -132,9 +132,10 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 ### External Memorization
 1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018` [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf), [[code]](https://github.com/tuxchow/ccm)
 2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020` [[paper]](https://aclanthology.org/2020.acl-main.515/), [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
-3. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023` [[paper]](https://arxiv.org/abs/2310.11672), [[code]](https://github.com/lingchen0331/KEEP)
-4. **Leveraging Explicit Reasoning for Inference Integration in Commonsense-Augmented Dialogue Models** `2024.6` [[paper]](https://arxiv.org/abs/2406.09138), [[code]](https://github.com/sfillwo/DialCS-Reasoning)
-5. **Dynamic Heterogeneous-Graph Reasoning with Language Models and Knowledge Representation Learning for Commonsense Question Answering** `ACL 2023` [[paper]](https://aclanthology.org/2023.acl-long.785/)
+3. **Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge** `ACL 2023` [[paper]](https://aclanthology.org/2023.findings-acl.498/), [[code]](https://github.com/Hanscal/DCKS)
+4. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023` [[paper]](https://arxiv.org/abs/2310.11672), [[code]](https://github.com/lingchen0331/KEEP)
+5. **Leveraging Explicit Reasoning for Inference Integration in Commonsense-Augmented Dialogue Models** `2024.6` [[paper]](https://arxiv.org/abs/2406.09138), [[code]](https://github.com/sfillwo/DialCS-Reasoning)
+6. **Dynamic Heterogeneous-Graph Reasoning with Language Models and Knowledge Representation Learning for Commonsense Question Answering** `ACL 2023` [[paper]](https://aclanthology.org/2023.acl-long.785/)
 
 
 ##  🌟 Applications
@@ -145,6 +146,13 @@ It's the knowledge about cause-and-effect relationships between events. For exam
 2. **An Enhanced Prompt-Based LLM Reasoning Scheme via Knowledge Graph-Integrated Collaboration** `2024.02` [[paper]](https://arxiv.org/abs/2402.04978)
 3. **Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation** `2024.02` [[paper]](https://arxiv.org/abs/2402.09267), [[code]](https://github.com/zhangxy-2019/Self-Alignment-for-Factuality)
 4. **DiffuCOMET: Contextual Commonsense Knowledge Diffusion** `2024.02` [[paper]](https://arxiv.org/abs/2402.17011), [[code]](https://github.com/Silin159/DiffuCOMET)
+
+## Future Directions
+1. **Evaluating the External and Parametric Knowledge
+Fusion of Large Language Models** `2024.05` [[paper]](https://arxiv.org/abs/2405.19010)
+2. **DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention** `ACL 2024` [[paper]](https://aclanthology.org/2024.acl-long.758/)
+3. **Cutting Off the Head Ends the Conflict: A Mechanism for
+Interpreting and Mitigating Knowledge Conflicts in Language Models** `ACL 2024` [[paper]](https://aclanthology.org/2024.findings-acl.70/)
 
 
 ## :pushpin:Reference
