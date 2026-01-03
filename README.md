@@ -20,7 +20,9 @@ It's the knowledge about the physical world, properties of objects, and their in
 1. **Building large knowledge- based systems: Representation and inference in the Cyc project** `1989` [[paper]](https://www.sciencedirect.com/science/article/pii/000437029390092P)
 
    *Charles Elkan and Russell Greiner*
-2. 
+2. **ConceptNet 5.5: An open multilingual graph of general knowledge** `AAAI 2017` [[paper]](https://doi.org/10.1609/AAAI.V31I1.11164)
+
+   *Speer R, Chin J, Havasi C*
 
 ### Intuitive Psychology
 
@@ -28,10 +30,8 @@ It's the knowledge about people's emotions, motivations, and mental states. For 
 
 1. **SenticNet 6: Ensemble Application of Symbolic and Subsymbolic AI for Sentiment Analysis** `CIKM 2020` [[paper]](https://dl.acm.org/doi/abs/10.1145/3340531.3412003), [[webpage]](https://sentic.net/downloads/)
 
-   *Erik Cambria, Yang Li, Frank Z. Xing, Soujanya Poria, Kenneth Kwok* `AAAI 2017` [[paper]](https://doi.org/10.1609/AAAI.V31I1.111643)
+   *Erik Cambria, Yang Li, Frank Z. Xing, Soujanya Poria, Kenneth Kwok* 
 
-2. **ConceptNet 5.5: An open multilingual graph of general knowledge** 
-   *Speer R, Chin J, Havasi C*
 ### Social Commonsense Knowledge
 
 It's the knowledge about social norms, conventions, and interactions between people. For example,  "People usually greet each other when they meet," "It is polite to say 'thank you' when someone helps you", etc.
