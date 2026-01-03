@@ -18,7 +18,9 @@ Our survey will **NOT** cover the widely-used lexical resources (such as WordNet
 
 It's the knowledge about the physical world, properties of objects, and their interaction. For example, "A cup can hold liquid," "A ball can roll," "Fire is hot", etc.
 
-1. 
+1. **Building large knowledge- based systems: Representation and inference in the Cyc project** `1989` [[paper]](https://www.sciencedirect.com/science/article/pii/000437029390092P)
+
+   *Charles Elkan and Russell Greiner*
 2. 
 
 ### Intuitive Psychology
@@ -56,10 +58,6 @@ It's the knowledge about the temporal aspects of events and their order. For exa
 It's the knowledge about cause-and-effect relationships between events. For example, "Eating spoiled food can cause sickness," "Studying hard leads to better grades", etc.
 
 ### General
-
-1. **Building large knowledge- based systems: Representation and inference in the Cyc project** `1989` [[paper]](https://www.sciencedirect.com/science/article/pii/000437029390092P)
-
-   *Charles Elkan and Russell Greiner*
 
 2. **ConceptNet 5.5: An Open Multilingual Graph of General Knowledge**  `AAAI 2017` [[paper]](https://arxiv.org/abs/1612.03975), [[webpage]](https://conceptnet.io/)
 
