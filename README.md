@@ -8,7 +8,6 @@ This repository contains the relevant literature mentioned in our survey paper. 
 
 
 ## :tada: Updates
-- 
 
 ## 📂 Knowledge Rescources
 
@@ -29,10 +28,10 @@ It's the knowledge about people's emotions, motivations, and mental states. For 
 
 1. **SenticNet 6: Ensemble Application of Symbolic and Subsymbolic AI for Sentiment Analysis** `CIKM 2020` [[paper]](https://dl.acm.org/doi/abs/10.1145/3340531.3412003), [[webpage]](https://sentic.net/downloads/)
 
-   *Erik Cambria, Yang Li, Frank Z. Xing, Soujanya Poria, Kenneth Kwok*
+   *Erik Cambria, Yang Li, Frank Z. Xing, Soujanya Poria, Kenneth Kwok* `AAAI 2017` [[paper]](https://doi.org/10.1609/AAAI.V31I1.111643)
 
-2. 
-
+2. **ConceptNet 5.5: An open multilingual graph of general knowledge** 
+   *Speer R, Chin J, Havasi C*
 ### Social Commonsense Knowledge
 
 It's the knowledge about social norms, conventions, and interactions between people. For example,  "People usually greet each other when they meet," "It is polite to say 'thank you' when someone helps you", etc.
