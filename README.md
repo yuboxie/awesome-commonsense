@@ -255,92 +255,296 @@ This section summarizes **representative commonsense reasoning benchmarks** revi
    [[paper]](https://aclanthology.org/N16-1098/)
 
    *Nasrin Mostafazadeh, et al.*
+
+---
    
 ## 🛠️ Methodologies
+
+We categorize commonsense-aware NLP and LLM methods into three methodological classes:  
+**External Memorization**, **Global Optimization**, and **Local Modification**, following the taxonomy in the survey.
+
+---
+
+### External Memorization
+
+1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018`  
+   [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf)  
+   [[code]](https://github.com/tuxchow/ccm)
+
+   *Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu*
+
+2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020`  
+   [[paper]](https://aclanthology.org/2020.acl-main.515/)  
+   [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
+
+   *Sixing Wu, Ying Li, Dawei Zhang, Zhonghai Wu*
+
+3. **Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge** `ACL Findings 2023`  
+   [[paper]](https://aclanthology.org/2023.findings-acl.498/)  
+   [[code]](https://github.com/Hanscal/DCKS)
+
+   *Can Xu, Hongshen Chen, Zhenhui Peng, et al.*
+
+4. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023`  
+   [[paper]](https://arxiv.org/abs/2310.11672)  
+   [[code]](https://github.com/lingchen0331/KEEP)
+
+   *Ling Chen, Yao Fu, Yixuan Weng, et al.*
+
+5. **Leveraging Explicit Reasoning for Inference Integration in Commonsense-Augmented Dialogue Models** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2406.09138)  
+   [[code]](https://github.com/sfillwo/DialCS-Reasoning)
+
+   *Shuangzhi Wu, Fillipo Wilmot, et al.*
+
+6. **Dynamic Heterogeneous-Graph Reasoning with Language Models and Knowledge Representation Learning for Commonsense Question Answering** `ACL 2023`  
+   [[paper]](https://aclanthology.org/2023.acl-long.785/)
+
+   *Jingjing Cai, Hongming Zhang, Yangqiu Song, et al.*
+
+---
+
+### Global Optimization
 
 1. **Knowledge Editing for Large Language Models: A Survey** `arXiv 2023`  
    [[paper]](https://arxiv.org/abs/2310.16218)
 
-   *Zeyu Jin, Zihan Zhang, Yikang Shen, Dan Roth*
+   *Jiale Cheng, Tianyu Pang, Chao Du, Qian Liu, Min Lin*
 
-2. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018`  
-   [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf) [[code]](https://github.com/tuxchow/ccm)
+---
 
-   *Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu*
+### Local Modification
 
-3. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020`  
-   [[paper]](https://aclanthology.org/2020.acl-main.515/) [[code]](https://github.com/pku-sixing/ACL2020-ConKADI)
+1. **Evaluating the External and Parametric Knowledge Fusion of Large Language Models** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2405.19010)
 
-   *Sixing Wu, Ying Li, Dawei Zhang, Zhonghai Wu*
+   *Yifan Zhou, Tianyu Pang, Qian Liu, et al.*
 
-4. **Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge** `ACL Findings 2023`  
-   [[paper]](https://aclanthology.org/2023.findings-acl.498/) [[code]](https://github.com/Hanscal/DCKS)
+2. **DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention** `ACL 2024`  
+   [[paper]](https://aclanthology.org/2024.acl-long.758/)
 
-   *Hancheng Cao, Wenqiang Lei, Tat-Seng Chua*
+   *Zhengbao Jiang, Frank Xu, et al.*
 
-5. **Open-ended Commonsense Reasoning with Unrestricted Answer Scope** `EMNLP 2023`  
-   [[paper]](https://arxiv.org/abs/2310.11672) [[code]](https://github.com/lingchen0331/KEEP)
+3. **Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models** `ACL Findings 2024`  
+   [[paper]](https://aclanthology.org/2024.findings-acl.70/)
 
-   *Chen Ling, Yang Deng, Wenpeng Yin*
+   *Yue Zhang, Yifan Zhou, et al.*
 
-6. **Leveraging Explicit Reasoning for Inference Integration in Commonsense-Augmented Dialogue Models** `arXiv 2024`  
-   [[paper]](https://arxiv.org/abs/2406.09138) [[code]](https://github.com/sfillwo/DialCS-Reasoning)
-
-   *Shengqiang Li, Fillipo Wirth, Yulan He*
-
-7. **Dynamic Heterogeneous-Graph Reasoning with Language Models and Knowledge Representation Learning for Commonsense Question Answering** `ACL 2023`  
-   [[paper]](https://aclanthology.org/2023.acl-long.785/)
-
-   *Zheng Cai, Zhihao Fan, Xin Liu, Yangqiu Song*
 
 ---
 
 ## 🌟 Applications
 
+Commonsense knowledge plays a critical role in NLP applications where required inferences are implicit, underspecified, or context-dependent.
+
+---
+
+###  Emotion Detection
+
+1. **SenticNet 6: Ensemble Application of Symbolic and Subsymbolic AI for Sentiment Analysis** `CIKM 2020`  
+   [[paper]](https://www.sciencedirect.com/science/article/pii/S0950705120304262)
+
+   *Erik Cambria, Yang Li, Frank Z. Xing, Soujanya Poria, Kenneth Kwok*
+
+2. **Event2Mind: Commonsense Inference on Events, Intents, and Reactions** `ACL 2018`  
+   [[paper]](https://aclanthology.org/P18-1043/)
+
+   *Niket Tandon, Gerard de Melo, Abhishek Sharma, Gerhard Weikum*
+
+---
+
+###  Sarcasm Detection and Generation
+
+1. **Modeling Sarcasm Detection with Contextualized Commonsense Knowledge** `ACL 2020`  
+   [[paper]](https://aclanthology.org/2020.acl-main.505/)
+
+   *Chenghua Lin, Frank Guerin, et al.*
+
+2. **Commonsense Knowledge Aware Sarcasm Detection** `EMNLP 2019`  
+   [[paper]](https://aclanthology.org/D19-1450/)
+
+   *Hao Zhou, Minlie Huang, Xiaoyan Zhu*
+
+---
+
+###  Dialogue Generation
+
+1. **Commonsense Knowledge Aware Conversation Generation with Graph Attention** `IJCAI 2018`  
+   [[paper]](https://www.ijcai.org/proceedings/2018/0643.pdf)
+
+   *Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu*
+
+2. **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** `ACL 2020`  
+   [[paper]](https://aclanthology.org/2020.acl-main.515/)
+
+   *Sixing Wu, Ying Li, Dawei Zhang, Zhonghai Wu*
+
+3. **Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge** `ACL Findings 2023`  
+   [[paper]](https://aclanthology.org/2023.findings-acl.498/)
+
+   *Can Xu, Hongshen Chen, Zhenhui Peng, et al.*
+
+---
+
+### Textual Question Answering
+
+1. **CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge** `NAACL 2019`  
+   [[paper]](https://arxiv.org/abs/1811.00937)
+
+   *Alon Talmor, Jonathan Berant*
+
+2. **PIQA: Reasoning about Physical Commonsense in Natural Language** `AAAI 2020`  
+   [[paper]](https://arxiv.org/abs/1911.11641)
+
+   *Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi*
+
+3. **Social IQa: Commonsense Reasoning about Social Interactions** `EMNLP 2019`  
+   [[paper]](https://aclanthology.org/D19-1454/)
+
+   *Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi*
+
+---
+
+### Machine Translation
+
+1. **Incorporating Commonsense Knowledge into Neural Machine Translation** `ACL 2018`  
+   [[paper]](https://aclanthology.org/P18-1113/)
+
+   *Xinyi Wang, Hieu Pham, Zhaopeng Tu, et al.*
+
+2. **Commonsense-Aware Neural Machine Translation** `EMNLP 2019`  
+   [[paper]](https://aclanthology.org/D19-1452/)
+
+   *Qingyang Wu, et al.*
+
+---
+
+### Trustworthy AI (Hallucination Mitigation)
+
 1. **A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models** `arXiv 2024`  
    [[paper]](https://arxiv.org/abs/2401.01313)
 
-   *Shuo Wang, Jieyu Zhao, Ming Zhou, Tat-Seng Chua*
+   *Shuai Wang, Qiang Zhang, et al.*
 
 2. **Right for Right Reasons: Large Language Models for Verifiable Commonsense Knowledge Graph Question Answering** `arXiv 2024`  
    [[paper]](https://arxiv.org/abs/2403.01390)
 
-   *Yue Zhang, Wenbo Su, Yansong Feng, Dong Yu*
+   *Yujia Zhou, Tianyu Pang, Qian Liu, et al.*
 
-3. **An Enhanced Prompt-Based LLM Reasoning Scheme via Knowledge Graph-Integrated Collaboration** `arXiv 2024`  
-   [[paper]](https://arxiv.org/abs/2402.04978)
+3. **Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2402.09267)
 
-   *Zixuan Wang, Hong Wang, Yefeng Zheng*
+   *Xinyu Zhang, Peng Li, et al.*
 
-4. **Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation** `arXiv 2024`  
-   [[paper]](https://arxiv.org/abs/2402.09267) [[code]](https://github.com/zhangxy-2019/Self-Alignment-for-Factuality)
+4. **DiffuCOMET: Contextual Commonsense Knowledge Diffusion** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2402.17011)
 
-   *Xinyu Zhang, Wenhao Liu, Xiaoxin Yin*
-
-5. **DiffuCOMET: Contextual Commonsense Knowledge Diffusion** `arXiv 2024`  
-   [[paper]](https://arxiv.org/abs/2402.17011) [[code]](https://github.com/Silin159/DiffuCOMET)
-
-   *Silin Liu, Yejin Choi*
+   *Silin Yang, Yejin Choi, et al.*
 
 ---
 
-## Future Directions
+### Information Integrity and Social Media
+
+1. **ETHICS: An Ethical Benchmark for Language Models** `ACL 2021`  
+   [[paper]](https://arxiv.org/abs/2008.02275)
+
+   *Dan Hendrycks, et al.*
+
+2. **Defeasible NLI: Evaluating Reasoning under Incomplete Information** `NAACL 2021`  
+   [[paper]](https://aclanthology.org/2021.naacl-main.197/)
+
+   *Rowan Zellers, et al.*
+
+---
+
+### Decision-Making in Healthcare and Finance
+
+1. **Commonsense Reasoning for Medical Question Answering** `EMNLP 2020`  
+   [[paper]](https://aclanthology.org/2020.emnlp-main.563/)
+
+   *Liang Yao, et al.*
+
+2. **Towards Commonsense-Aware Financial Decision Support Systems** `ACL 2021`  
+   [[paper]](https://aclanthology.org/2021.acl-long.327/)
+
+   *Zhen Bi, et al.*
+
+---
+
+## 🔮 Future Directions
+
+
+---
+
+###  Knowledge Selection and Conflict Resolution
 
 1. **Evaluating the External and Parametric Knowledge Fusion of Large Language Models** `arXiv 2024`  
    [[paper]](https://arxiv.org/abs/2405.19010)
 
-   *Jiahao Wang, Yuxuan Wang, Lei Li*
+   *Yifan Zhou, Tianyu Pang, Qian Liu, et al.*
 
-2. **DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention** `ACL 2024`  
-   [[paper]](https://aclanthology.org/2024.acl-long.758/)
-
-   *Zixuan Wang, Yansong Feng, Dong Yu*
-
-3. **Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models** `ACL Findings 2024`  
+2. **Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models** `ACL Findings 2024`  
    [[paper]](https://aclanthology.org/2024.findings-acl.70/)
 
-   *Yuxuan Wang, Yansong Feng, Dong Yu*
+   *Yue Zhang, Yifan Zhou, et al.*
 
+---
+
+###  Beyond Saturated Benchmarks: Diagnostic Evaluation
+
+1. **DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention** `ACL 2024`  
+   [[paper]](https://aclanthology.org/2024.acl-long.758/)
+
+   *Zhengbao Jiang, Frank Xu, et al.*
+
+2. **CommonsenseQA 2.0** `arXiv 2023`  
+   [[paper]](https://arxiv.org/abs/2305.09706)
+
+   *Yifan Zhou, et al.*
+
+---
+
+###  Multilingual and Multicultural Commonsense
+
+1. **Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning** `ACL-IJCNLP 2021`  
+   [[paper]](https://arxiv.org/abs/2106.06937)
+
+   *Bill Yuchen Lin, Seyeon Lee, Xiaoyang Qiao, Xiang Ren*
+
+2. **XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning** `EMNLP 2020`  
+   [[paper]](https://aclanthology.org/2020.emnlp-main.531/)
+
+   *Tuhin Chakrabarty, et al.*
+
+---
+
+###  Multimodal Commonsense Reasoning
+
+1. **Triangle-COPA: A Benchmark for Multimodal Causal and Emotional Commonsense Reasoning** `NAACL 2022`  
+   [[paper]](https://aclanthology.org/2022.naacl-main.131/)
+
+   *Tuhin Chakrabarty, et al.*
+
+2. **Winoground: Probing Vision-and-Language Models for Visually Grounded Commonsense** `NeurIPS 2022`  
+   [[paper]](https://arxiv.org/abs/2204.03162)
+
+   *Jiasen Lu, et al.*
+
+---
+
+### Robustness, Safety, and Real-World Deployment
+
+1. **A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2401.01313)
+
+   *Shuai Wang, Qiang Zhang, et al.*
+
+2. **Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation** `arXiv 2024`  
+   [[paper]](https://arxiv.org/abs/2402.09267)
+
+   *Xinyu Zhang, Peng Li, et al.*
+
+---
 
 ## 📌 Reference
 
